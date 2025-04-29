@@ -11,8 +11,9 @@ convertBtn.addEventListener('click', function() {
   else if (inputNumber.value >= 4000) {
     outputDiv.textContent = "Please enter a number less than or equal to 3999";
   } 
+  else if (inputNumber.value == 9) {
+    outputDiv.textContent == "IX";
+  }
 });
 
-function switchCase() {
-  
-}
+
