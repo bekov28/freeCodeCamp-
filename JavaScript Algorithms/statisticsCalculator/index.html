@@ -11,44 +11,40 @@
     <h1>Statistics Calculator</h1>
     <p>Enter a list of comma-separated numbers.</p>
 
-    <form onsubmit="calculate();">
+    <form onsubmit="calculate(); return false;">
       <label for="numbers">Numbers:</label>
       <input type="text" name="numbers" id="numbers" />
       <button type="submit">Calculate</button>
     </form>
     <div class="results">
       <p>
-        The <dfn>mean</dfn> of a list of numbers is the average, calculated by
-        taking the sum of all numbers and dividing that by the count of numbers.
+        The <dfn>mean</dfn> of a list of numbers is the average, calculated by taking the sum of all
+        numbers and dividing that by the count of numbers.
       </p>
       <p class="bold">Mean: <span id="mean"></span></p>
       <p>
-        The <dfn>median</dfn> of a list of numbers is the number that appears in
-        the middle of the list, when sorted from least to greatest.
+        The <dfn>median</dfn> of a list of numbers is the number that appears in the middle of the
+        list, when sorted from least to greatest.
       </p>
       <p class="bold">Median: <span id="median"></span></p>
       <p>
-        The <dfn>mode</dfn> of a list of numbers is the number that appears most
-        often in the list.
+        The <dfn>mode</dfn> of a list of numbers is the number that appears most often in the list.
       </p>
       <p class="bold">Mode: <span id="mode"></span></p>
       <p>
-        The <dfn>range</dfn> of a list of numbers is the difference between the
-        largest and smallest numbers in the list.
+        The <dfn>range</dfn> of a list of numbers is the difference between the largest and smallest
+        numbers in the list.
       </p>
       <p class="bold">Range: <span id="range"></span></p>
       <p>
-        The <dfn>variance</dfn> of a list of numbers measures how far the values
-        are from the mean, on average.
+        The <dfn>variance</dfn> of a list of numbers measures how far the values are from the mean,
+        on average.
       </p>
       <p class="bold">Variance: <span id="variance"></span></p>
       <p>
-        The <dfn>standard deviation</dfn> of a list of numbers is the square
-        root of the variance.
+        The <dfn>standard deviation</dfn> of a list of numbers is the square root of the variance.
       </p>
-      <p class="bold">
-        Standard Deviation: <span id="standardDeviation"></span>
-      </p>
+      <p class="bold">Standard Deviation: <span id="standardDeviation"></span></p>
     </div>
   </body>
 </html>
