@@ -46,14 +46,14 @@
 //Yuzaki klonlash
 //Chuqur klonlash
 
-const person = {
-  name: 'Berd',
-  age: 33,
-  hobbies: {
-    games: 'chess',
-    sport: 'boxing'
-  }
-}
+// const person = {
+//   name: 'Berd',
+//   age: 33,
+//   hobbies: {
+//     games: 'chess',
+//     sport: 'boxing'
+//   }
+// }
 //const secondPerson = person;
 //console.log(secondPerson);
 // secondPerson.name = 'Samar'
@@ -91,11 +91,12 @@ const person = {
 // const secondPerson = {...person};
 // console.log(secondPerson);
 
-function spread(a, b, c) {
-  console.log('First arg: ', a)
-  console.log('Second arg: ', b)
-  console.log('Third arg: ', c)
-}
+// function spread(a, b, c) {
+//   console.log('First arg: ', a)
+//   console.log('Second arg: ', b)
+//   console.log('Third arg: ', c)
+// }
 
-const arr = [1, 2, 3];
-spread(...arr);
+// const arr = [1, 2, 3];
+// spread(...arr);
+
