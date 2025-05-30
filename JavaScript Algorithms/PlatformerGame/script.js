@@ -11,7 +11,7 @@ let isCheckpointCollisionDetectionActive = true;
 
 const proportionalSize = (size) => {
   return innerHeight < 500 ? Math.ceil((size / 500) * innerHeight) : size;
-}
+};
 
 class Player {
   constructor() {
@@ -30,7 +30,7 @@ class Player {
     ctx.fillStyle = "#99c9ff";
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
   }
-  
+
   update() {
     this.draw();
     this.position.x += this.velocity.x;
@@ -46,9 +46,8 @@ class Player {
       this.velocity.y = 0;
     }
 
-
-
-
+    if (this.position.x < this.width) {
+      this.position.x = this.width;
+    }
   }
-
 }
