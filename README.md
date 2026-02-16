@@ -1,5 +1,5 @@
-<span>I challenged myself to sharpen and refresh my coding skills on a well-known free programming website - FreeCodeCamp. Through this, I aim to make coding a daily habit </span></b>
-<span>My goal is to complete the all 6 courses of the Full Stack Developer Curriculum</span>
+<span>I challenged myself to sharpen and refresh my coding skills on a well-known free programming website - FreeCodeCamp. Through this, I aim to make coding a daily habit. </span></b>
+<span> My goal is to complete the all 6 courses of the Full Stack Developer Curriculum</span>
 
 **Repository containing my solutions to FreeCodeCamp's 12 core curriculum courses.** Perfect for reference, collaboration, or learning together!
 
