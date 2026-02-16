@@ -1,7 +1,7 @@
 <span>I challenged myself to sharpen and refresh my coding skills on a well-known free programming website - FreeCodeCamp. Through this, I aim to make coding a daily habit. </span></b>
 <span> My goal is to complete the all 6 courses of the Full Stack Developer Curriculum</span>
 
-**Repository containing my solutions to FreeCodeCamp's 12 core curriculum courses.** Perfect for reference, collaboration, or learning together!
+**Repository will contain my solutions and projects which are done following FreeCodeCamp's 6 core curriculum courses.** Perfect for reference, collaboration, or learning together!
 
 FreeCodeCamp's Full Stack Developer Curriculum consists of 6 courses and each course usually takes up to 300 hours to complete: 
 1. Responsive Web Design Certification (Completed)
